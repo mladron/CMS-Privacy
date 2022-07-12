@@ -2,9 +2,7 @@
 On the Privacy of the Count-Min Sketch
 
 ## Description
-The goal of Fingerprint Count Min Sketch (FCMS) is to reduce counter overestimation by adding a fingerprint to the counters and use it to check if consecutive increments to a counter belong to the same element. This code is used in the paper "Improving Packet Flow Counting with Fingerprint Counting" by Pedro Reviriego, Jorge Martinez and Salvatore Pontarelli, IEEE Communications Letters (in press).
-
-The FCMS code used Daniel Alabi's Count-Min Sketch as a starting point https://github.com/alabid/countminsketch
+The goal of Count-Min Sketch privacy is to ... This code is used in the paper "On the Privacy of Count-Min Sketch" by Alfonso Sánchez-Macián, Pedro Reviriego, Jorge Martinez and ...
 
 ## Compilation
 This Visual Studio C++ project consists of 13 files including header, source files and the main program.
