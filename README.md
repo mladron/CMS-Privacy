@@ -20,7 +20,7 @@ Command line arguments are:
 
 ## Running experiments
 
-The experiments were run with a batch file. Traces were downloaded from CAIDA
+The traces were downloaded from CAIDA, and the experiments were run with a batch file.
 
 https://www.caida.org/catalog/datasets/passive_dataset_download
 
