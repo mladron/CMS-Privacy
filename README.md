@@ -18,7 +18,7 @@ Command line arguments are:
 
 **example: icms.exe w=16384 d=4, f=ch1.txt p=256 i=128 a=2**
 
-## Running experiments
+## Input traces and experiments
 
 The traces were downloaded from CAIDA, and the experiments were run with a batch file.
 
