@@ -14,7 +14,7 @@ Command line arguments are:
 - f: input keys
 - p: minimum value of P, default value is 256
 - i: increment of p, default value is 128
-- a: heavy hitter selection 1:first, 2:highest estimate, 3:lowest estimate, default value is 2
+- a: heavy hitter selection [1:first, 2:highest estimate, 3:lowest estimate], default value is 2
 
 **example: icms.exe w=16384 d=4, f=ch1.txt p=256 i=128 a=2**
 
