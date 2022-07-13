@@ -5,7 +5,7 @@ On the Privacy of the Count-Min Sketch
 The goal of Count-Min Sketch privacy is to ... This code is used in the paper "On the Privacy of Count-Min Sketch" by Alfonso Sánchez-Macián, Pedro Reviriego, Jorge Martinez and ...
 
 ## Compilation
-This Visual Studio C++ project consists of 12 files including header, source files and the main program.
+This Visual Studio C++ project consists of 12 files including header files, source files and the main program.
 
 ## Command line arguments
 Command line arguments are:
