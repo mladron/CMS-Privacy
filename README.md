@@ -9,7 +9,7 @@ This Visual Studio C++ project consists of 12 files including header files, sour
 
 ## Command line arguments
 Command line arguments are:
-- w: table width, default value is w=1048576
+- w: table width, default value is w=16384
 - d: table depth or number of counters checked, default value is d=2
 - f: input keys
 - p: minimum value of P, default value is 256
@@ -20,45 +20,45 @@ Command line arguments are:
 
 ## Input traces and experiments
 
-The traces were downloaded from CAIDA, and the experiments were run with a batch file.
+The traces were downloaded from CAIDA, and the experiments were run with a batch file. Heavy hitters were selected by highest estimate during the peeling process.
 
 https://www.caida.org/catalog/datasets/passive_dataset_download
 
 **San José**
 
-- icms f=sj12.txt d=3 w=4096 p=128 i=64 s=45687
-- icms f=sj12.txt d=4 w=4096 p=128 i=64 s=45687
-- icms f=sj12.txt d=5 w=4096 p=128 i=64 s=45687
-- icms f=sj12.txt d=3 w=8192 p=128 i=64 s=45687
-- icms f=sj12.txt d=4 w=8192 p=128 i=64 s=45687
-- icms f=sj12.txt d=5 w=8192 p=128 i=64 s=45687
-- icms f=sj12.txt d=3 p=128 i=64 s=45687
-- icms f=sj12.txt d=4 p=128 i=64 s=45687
-- icms f=sj12.txt d=5 p=128 i=64 s=45687
+- icms f=sj12.txt d=3 w=4096 p=128 i=64
+- icms f=sj12.txt d=4 w=4096 p=128 i=64
+- icms f=sj12.txt d=5 w=4096 p=128 i=64
+- icms f=sj12.txt d=3 w=8192 p=128 i=64
+- icms f=sj12.txt d=4 w=8192 p=128 i=64
+- icms f=sj12.txt d=5 w=8192 p=128 i=64
+- icms f=sj12.txt d=3 w=16384 p=128 i=64
+- icms f=sj12.txt d=4 w=16384 p=128 i=64
+- icms f=sj12.txt d=5 w=16384 p=128 i=64
 
 **Chicago A**
 
-- icms f=ch1.txt d=3 w=4096 p=128 i=64 s=45687
-- icms f=ch1.txt d=4 w=4096 p=128 i=64 s=45687
-- icms f=ch1.txt d=5 w=4096 p=128 i=64 s=45687
-- icms f=ch1.txt d=3 w=8192 p=128 i=64 s=45687
-- icms f=ch1.txt d=4 w=8192 p=128 i=64 s=45687
-- icms f=ch1.txt d=5 w=8192 p=128 i=64 s=45687
-- icms f=ch1.txt d=3 p=128 i=64 s=45687
-- icms f=ch1.txt d=4 p=128 i=64 s=45687
-- icms f=ch1.txt d=5 p=128 i=64 s=45687
+- icms f=ch1.txt d=3 w=4096 p=128 i=64
+- icms f=ch1.txt d=4 w=4096 p=128 i=64
+- icms f=ch1.txt d=5 w=4096 p=128 i=64
+- icms f=ch1.txt d=3 w=8192 p=128 i=64
+- icms f=ch1.txt d=4 w=8192 p=128 i=64
+- icms f=ch1.txt d=5 w=8192 p=128 i=64 
+- icms f=ch1.txt d=3 w=16384 p=128 i=64
+- icms f=ch1.txt d=4 w=16384 p=128 i=64
+- icms f=ch1.txt d=5 w=16384 p=128 i=64
 
 **Chicago B**
 
-- icms f=ch2.txt d=3 w=4096 p=128 i=64 s=45687
-- icms f=ch2.txt d=4 w=4096 p=128 i=64 s=45687
-- icms f=ch2.txt d=5 w=4096 p=128 i=64 s=45687
-- icms f=ch2.txt d=3 w=8192 p=128 i=64 s=45687
-- icms f=ch2.txt d=4 w=8192 p=128 i=64 s=45687
-- icms f=ch2.txt d=5 w=8192 p=128 i=64 s=45687
-- icms f=ch2.txt d=3 p=128 i=64 s=45687
-- icms f=ch2.txt d=4 p=128 i=64 s=45687
-- icms f=ch2.txt d=5 p=128 i=64 s=45687
+- icms f=ch2.txt d=3 w=4096 p=128 i=64
+- icms f=ch2.txt d=4 w=4096 p=128 i=64
+- icms f=ch2.txt d=5 w=4096 p=128 i=64
+- icms f=ch2.txt d=3 w=8192 p=128 i=64
+- icms f=ch2.txt d=4 w=8192 p=128 i=64
+- icms f=ch2.txt d=5 w=8192 p=128 i=64
+- icms f=ch2.txt d=3 w=16384 p=128 i=64
+- icms f=ch2.txt d=4 w=16384 p=128 i=64
+- icms f=ch2.txt d=5 w=16384 p=128 i=64
 
 ## License
 
