@@ -12,9 +12,11 @@ Command line arguments are:
 - w: table width, default value is w=1048576
 - d: table depth or number of counters checked, default value is d=2
 - f: input keys
-- a: heavy hitter selection, default value is 2 (maximum estimate)
+- p: minimum value of P, default value is 256
+- i: increment of p, default value is 128
+- a: heavy hitter selection 1:first, 2:highest estimate, 3:lowest estimate, default value is 2
 
-**example: icms.exe w=16384 d=4, f=ch1.txt**
+**example: icms.exe w=16384 d=4, f=ch1.txt p=256 i=128 a=2**
 
 ## License
 
