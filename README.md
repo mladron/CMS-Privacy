@@ -5,7 +5,7 @@ On the Privacy of the Count-Min Sketch: Extracting the Top-K elements
 
 Estimating the frequency of elements in a data stream and identifying the elements that appear many times (heavy hitters) is needed in many applications such as traffic monitoring in networks, or popularity estimation in social media. The Count-Min Sketch (CMS) is probably one of the the most widely used algorithms for frequency estimation. This work considers the privacy of the CMS and presents an algorithm to extract the most frequent elements (top-K), and their estimate from a Count-Min sketch. This is possible for universes of a limited size, when the attacker has access to the sketch, its hash functions and the counters at a specific point of time.
 
-This code is used in the paper "On the Privacy of Count-Min Sketch: Extracting the Top-K elements" by Alfonso Sánchez-Macián, Jorge Martínez, Pedro Reviriego, Shanshan Liu and Fabrizio Lombardi, that is under review in IEEE Transactions on Emerging Topics in Computing.
+This code is used in the paper "On the Privacy of Count-Min Sketch: Extracting the Top-K elements" by Alfonso Sánchez-Macián, Jorge Martínez, Pedro Reviriego, Shanshan Liu and Fabrizio Lombardi. This paper is under review in IEEE Transactions on Emerging Topics in Computing.
 
 ## Compilation
 This Visual Studio C++ project consists of 12 files including header files, source files and the main program.
